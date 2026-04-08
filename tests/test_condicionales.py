@@ -1,4 +1,4 @@
-import pytest
+"""Tests for the condicionales module."""
 from src.condicionales import (
     clasificar_numero,
     mayor_de_tres,
