@@ -7,44 +7,89 @@
 
 
 def crear_saludo(nombre: str) -> str:
+    """Crear un saludo personalizado.
+
+    Esta función recibe un nombre y retorna un saludo en formato
+    "Hola, <nombre>!".
+
+    Args:
+        nombre (str): El nombre de la persona.
+
+    Returns:
+        str: El saludo personalizado.
+
+    Examples:
+        >>> crear_saludo("Ana")
+        'Hola, Ana!'
     """
-    Retorna un saludo personalizado.
-    Ejemplo: crear_saludo("Ana") -> "Hola, Ana!"
-    """
-    # TU CÓDIGO AQUÍ
-    pass
+    return f"Hola, {nombre}!"
 
 
 def suma_enteros(a: int, b: int) -> int:
+    """Calcular la suma de dos enteros.
+
+    Args:
+        a (int): Primer número entero.
+        b (int): Segundo número entero.
+
+    Returns:
+        int: La suma de los dos enteros.
+
+    Examples:
+        >>> suma_enteros(3, 5)
+        8
     """
-    Retorna la suma de dos enteros.
-    """
-    # TU CÓDIGO AQUÍ
-    pass
+    return a + b
 
 
 def es_mayor_de_edad(edad: int) -> bool:
+    """Verificar si una persona es mayor de edad.
+
+    Args:
+        edad (int): Edad de la persona.
+
+    Returns:
+        bool: True si la edad es mayor o igual a 18,
+        False en caso contrario.
+
+    Examples:
+        >>> es_mayor_de_edad(20)
+        True
+        >>> es_mayor_de_edad(15)
+        False
     """
-    Retorna True si edad >= 18, False caso contrario.
-    """
-    # TU CÓDIGO AQUÍ
-    pass
+    return edad >= 18
 
 
 def tipo_de_dato(valor) -> str:
+    """Obtener el tipo de dato de un valor.
+
+    Args:
+        valor: El valor a evaluar.
+
+    Returns:
+        str: El nombre del tipo de dato.
+
+    Examples:
+        >>> tipo_de_dato(42)
+        'int'
+        >>> tipo_de_dato("hola")
+        'str'
     """
-    Retorna el nombre del tipo de dato del valor recibido.
-    Ejemplo: tipo_de_dato(42) -> "int"
-             tipo_de_dato("hola") -> "str"
-    """
-    # TU CÓDIGO AQUÍ
-    pass
+    return type(valor).__name__
 
 
 def convertir_a_float(valor: str) -> float:
+    """Convertir un string numérico a float.
+
+    Args:
+        valor (str): El valor numérico en formato string.
+
+    Returns:
+        float: El valor convertido a número decimal.
+
+    Examples:
+        >>> convertir_a_float("3.14")
+        3.14
     """
-    Convierte un string numérico a float.
-    Ejemplo: convertir_a_float("3.14") -> 3.14
-    """
-    # TU CÓDIGO AQUÍ
-    pass
+    return float(valor)
