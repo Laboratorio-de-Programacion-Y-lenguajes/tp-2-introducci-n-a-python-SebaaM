@@ -176,5 +176,8 @@ Siguiendo las instrucciones previas, utilizando diccionarios. Respetar la firma 
 Respondé brevemente (3-5 oraciones):
 
 - ¿Qué aprendiste sobre cómo formular buenos prompts?
+  Una base correcta para optimizar las respuestas es importante, variaciones segun contexto, chequeo y entendimiento de la lineas es fundamental..
 - ¿En qué casos la IA fue útil y en cuáles no?
+  Con patrones en pasos en algoritmos largos, los prompts deben ser claros y concisos, pero pueden llegar a ser confusos o presentar ambiguedades.
 - ¿Qué harías diferente la próxima vez?
+  Contemplar verifiaciones de datos, comentarios claros y claridad de lógica.
